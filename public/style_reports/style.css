@@ -1,0 +1,177 @@
+.text_logo{
+    font-family: "Sofia";
+    text-shadow: 2px 2px 5px gray;
+    text-transform: uppercase;
+}
+.header_report{
+    width: 100%;
+    height:75px;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    display: block;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+}
+.for_logo{
+    width: 250px;
+    height: 100%;
+    display: block;
+    position: relative;
+    float: left;
+}
+.img_titll{
+    height: 100%;
+}
+.for_title{
+    width: 250px;
+    height: 100%;
+    display: block;
+    position: relative;
+    float: left;
+    left: 30%;
+    transform: translateX(-70%);
+    text-align: center;
+    color: rgb(216, 14, 14);
+}
+.for_data{
+    width: 220px;
+    height: 100%;
+    display: block;
+    position: relative;
+    right: 0%;
+    float: right;
+}
+.body_report{
+    width: 100%;
+    height:1000px;
+    display: block;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    margin-top: 10px;
+}
+.part_one_of_body{
+    width: 99%;
+    height: 250px;
+    margin-left: 0.5%;
+    margin-top: 0.5%;
+}
+.part_tow_of_body{
+    width: 99%;
+    height: 630px;
+    margin-left: 0.5%;
+    margin-top: 0.5%;
+}
+.title_opject{
+    color: black;
+    text-decoration: underline;
+    text-align: right;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 21px;
+}
+.input_group_one{
+    text-align: right;
+    right: 0%;
+    display: block;
+    width: 40%;
+    position: relative;
+    right:5px;
+    float: right;
+}
+.input_group_one h4{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.input_group_two h4{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.input_group_two{
+    text-align: right;
+    right: 5%;
+    display: block;
+    width: 40%;
+    position: relative;
+}
+.end_input_part_one{
+    text-align: right;width: 100%;
+    height:fit-content;
+    position: relative;
+    display: block;
+    right: 1px;
+    top: 5px;
+    margin-bottom: 40px;
+}
+.title_sec{
+    width: 30%;
+    height: 100%;
+    padding: 2px;
+    font-size: 22px;
+    position: relative;
+}
+.body_inp_p_n{
+    width: auto;
+    height: auto;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.space{
+    width: 50px;
+    display: inline-block;
+}
+#text_fon{
+    color: black;
+}
+#box_tr{
+    padding: 5px;    
+    text-indent:10px;   
+}
+th{
+    text-align: right;
+    border: 1px solid;
+    width: auto;
+}
+td{
+    text-align: right;
+    border: 1px solid;
+    width: 33.3333%;
+}
+th h5{
+    text-align: right;
+    position: relative;
+    right: 0px;
+}
+th h6{
+    text-align: right;
+    position: relative;
+    right: 0px;
+}
+.n_mang{
+    position: absolute;
+    left: 10%;
+    text-align: center;
+    margin-top: 2%;
+}
+.n_mang_two{
+    position: absolute;
+    right: 15%;
+    text-align: center;
+    margin-top: 1.5%;
+}
+.numb_{
+    background-color: #fbfbfb;
+    border: none;
+    text-align: right;
+    }
+    .div_btn{
+        position: fixed;
+        left: 10px;
+        top:20%;
+    }
+    .buton_drop{
+        width: 70px;
+        height:70px;
+        border-radius: 100%;
+        padding: 0%;
+        padding-left: 3px;
+    }

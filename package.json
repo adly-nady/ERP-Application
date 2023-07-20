@@ -1,0 +1,47 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "axios": "^0.21",
+        "babel-preset-stage-2": "^6.24.1",
+        "bootstrap": "^4.6.0",
+        "jquery": "^3.6.0",
+        "laravel-echo": "^1.11.3",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "popper.js": "^1.16.1",
+        "postcss": "^8.1.14",
+        "pusher-js": "^7.0.4",
+        "resolve-url-loader": "^3.1.2",
+        "sass": "^1.43.4",
+        "sass-loader": "^11.1.1",
+        "vue": "^2.6.14",
+        "vue-loader": "^15.9.8",
+        "vue-router": "^3.5.3",
+        "vue-template-compiler": "^2.6.14",
+        "vuex": "^3.6.2"
+    },
+    "dependencies": {
+        "@fullcalendar/core": "^5.10.1",
+        "@fullcalendar/daygrid": "^5.10.1",
+        "@fullcalendar/vue": "^5.10.1",
+        "@pusher/push-notifications-web": "^1.1.0",
+        "babel-runtime": "^6.26.0",
+        "http": "^0.0.1-security",
+        "moment": "^2.29.1",
+        "print-area": "^0.1.5",
+        "pusher": "^5.0.0",
+        "tinymce": "^5.10.0",
+        "vue-full-calendar": "^0.0.3",
+        "vue-html-to-paper": "^1.4.4",
+        "vue-remove-attributes": "^1.0.3"
+    }
+}

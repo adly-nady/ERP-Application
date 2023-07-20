@@ -1,0 +1,180 @@
+*{
+    font-size: 10px;
+    color:yellow
+}
+span{
+    font-size: 20px;
+}
+td{
+    font-size:10px;
+}
+.button_exit{
+    cursor: pointer;
+}
+.NotifacationWrningReport
+{
+    width: 840px;
+    height: 700px;
+    margin: 40px auto;
+    padding: 0px;
+    display: grid;
+    grid-template-rows: 29% 63% 8%;
+    direction: rtl;
+    box-shadow: 13px -11px 20px 0px whitesmoke;
+    border: 0.5px solid whitesmoke;
+    
+    
+}
+.NotifacationWrningReport input{text-align: center;border: 0px solid white;}
+/* ______________________________________________________________________Header_________________________________________________ */
+.NotifacationWrningReport Header{
+    display: grid;
+    grid-template-rows: 4% 10% auto auto auto auto 12%;
+    grid-template-columns: 15% 30% 20% 30%;
+    justify-content: space-between;
+    align-content: space-around;
+    background-image: linear-gradient(#eee , #fff);
+
+}
+
+.NotifacationWrningReport Header h3 ,h4{
+    grid-column: span 4;
+    text-align: center;
+    font-size: 18px;
+    margin: 5px;
+
+}
+.NotifacationWrningReport Header input{
+    justify-self:flex-start;
+    font-size: 16px;
+    font-weight: bold;
+}
+.NotifacationWrningReport Header label{
+    justify-self:flex-end;
+    font-size: 16px;
+    font-weight: bold;
+}
+NotifacationWrningReport Header ,l1{
+    justify-self:flex-start;
+    font-size: 16px;
+    font-weight: bold;
+}
+.NotifacationWrningReport Header .depart{
+    grid-column: span 4;
+    text-align: center;
+}
+
+/* ______________________________________________________________________Body_________________________________________________ */
+
+.NotifacationWrningReport .body{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 15% 30% 55%;
+}
+.NotifacationWrningReport .body .tstart{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3 , 33.3%);
+    justify-content: space-around;
+    box-shadow: 1px 1px 1px 0px black;
+}
+.NotifacationWrningReport .body .tstart .section1  , .NotifacationWrningReport .body .tstart  .section2 ,.NotifacationWrningReport .body .tstart  .section3 {
+    border: 1px solid black;
+    padding: 3px;
+}
+.NotifacationWrningReport .body .tstart .section1 label , .NotifacationWrningReport .body .tstart  .section2 label,.NotifacationWrningReport .body .tstart  .section3 label{
+    text-align: right;
+    font-size: 15px;
+    font-weight: bold;
+}
+.NotifacationWrningReport .body .tstart .section1 input , .NotifacationWrningReport .body .tstart  .section2 input,.NotifacationWrningReport .body .tstart  .section3 input{
+    text-align: right;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+.NotifacationWrningReport .body .tstart .section1 {
+    border: 1px solid black;
+    padding: 3px;
+    display: grid;
+    grid-template-rows: 33% 66%;
+}
+.NotifacationWrningReport .body .tstart  .section2{
+    border: 1px solid black;
+    padding: 3px;
+    display: grid;
+    grid-template-columns: 23% 76%;
+    grid-template-rows: 49% 49%;
+    align-content: space-between;
+    align-items: center;
+
+}
+.NotifacationWrningReport .body .tstart  .section3{
+    border: 1px solid black;
+    padding: 3px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 49% 49%;
+    align-content: space-between;
+    align-items: center;
+}
+
+.NotifacationWrningReport .body .tmeddal{
+    padding: 3px;
+    display: grid;
+    grid-template-rows: 20% 80%;
+    align-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 1px 0px black;
+}
+.NotifacationWrningReport .body .tmeddal label{font-size: 16px; font-weight: bold; text-decoration: underline;}
+.NotifacationWrningReport .body .tmeddal input{font-size: 16px; font-weight: bold; height: 100%;}
+
+.NotifacationWrningReport .body .tend{
+    padding: 3px;
+    display: grid;
+    grid-template-rows: 15% 85%;
+    align-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 1px 0px black;
+}
+    
+.NotifacationWrningReport .body .tend .th {
+    padding: 3px;
+    display: grid;
+    grid-template-columns: 30% 30% 7% 33%;
+    align-content: center;
+    text-align: center;
+    box-shadow: 0px 1px 2px 0px black;
+}
+.NotifacationWrningReport .body .tend .td{
+    height: 100%;
+    padding: 3px;
+    display: grid;
+    grid-template-columns: 30% 30% 7% 33%;
+    grid-template-rows: 100%;
+    align-content: flex-start;
+    text-align: center;
+
+}
+
+.NotifacationWrningReport .body .tend .td input{ height: 100%;font-size: 15px; font-weight: bold;box-shadow: 1px 1px 1px 0px black;}
+.NotifacationWrningReport .body .tend .th label{ font-size: 15px; font-weight: bold;box-shadow: 1px 1px 1px 0px black;}
+
+/* ______________________________________________________________________Footer_________________________________________________ */
+
+.NotifacationWrningReport .footer{
+
+    padding: 3px;
+    display: grid;
+    grid-template-columns: repeat(3 , 30%);
+    justify-content: space-around;
+    align-content: space-around;
+    text-align: center;
+
+    box-shadow: -5px 28px 20px 0px #eee;
+}
+
+.NotifacationWrningReport  .footer label{font-size: 15px; font-weight: bold; text-decoration: underline;}
+
+.NotifacationWrningReport  .footer input{font-size: 15px; font-weight: bold;}
